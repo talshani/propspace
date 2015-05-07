@@ -1,0 +1,25 @@
+{
+  "name": "props",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "gulp clean",
+    "compile": "gulp compile",
+    "test": "node ./node_modules/mocha/bin/mocha",
+    "prepublish": "npm run compile"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "outer-product": "git://github.com/talshani/outer-product.git"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-tsc": "^0.9.4",
+    "mocha": "^2.2.4",
+    "typescript": "^1.5.0-beta"
+  }
+}
